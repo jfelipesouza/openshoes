@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../src/css/global.css" />
+    <link rel="stylesheet" href="../src/css/home-client.css" />
+
+    <!--  Código Javascript --->
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="../src/js/materialize.min.js"></script>
+
+    <!-- SEO -->
     <title>Shoes</title>
   </head>
-  <body></body>
+  <body>
+    <header class="bg-primary header">
+      <nav>
+        <div>
+          <a href="./index.html" class="logo-container"> SHOES </a>
+        </div>
+
+        <div id="list-container-right">
+          <ul class="list">
+            <li>
+              <a class="list-item" href="./index.html#hero">Home</a>
+            </li>
+            <li>
+              <a class="list-item" href="./index.html#about">Sobre nós</a>
+            </li>
+            <li>
+              <a class="list-item" href="./index.html#services">Serviços</a>
+            </li>
+            <li>
+              <a class="list-item" href="./index.html#contact">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="flex section" id="hero">
+        <div class="flex-center flex-column left-container">
+          <h2 class="title color-text">
+            Bem-vindo ao SHOES encontre seu sapato ideal
+          </h2>
+          <p class="descrition color-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+            doloribus consequatur maiores distinctio cupiditate ipsa quis
+            veritatis iure laudantium quia error nisi velit in natus dicta
+            obcaecati soluta officia quam?
+          </p>
+
+          <a class="btn-action" href="./index.html#"> BUSQUE JÁ</a>
+        </div>
+        <div class="flex-center right-container" id="shoes">
+          <img
+            src="../src/assets/img/orange-shoe.svg"
+            alt="sapato laranja bonito"
+            class="image"
+          />
+        </div>
+      </section>
+      <section class="section" id="about"></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
