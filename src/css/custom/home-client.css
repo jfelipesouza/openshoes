@@ -25,6 +25,10 @@
   justify-content: center;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .list {
   list-style: none;
   display: flex;
@@ -44,13 +48,16 @@
   border-bottom-color: var(--primary-light);
 }
 
+/*Section*/
+
 .section {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-/*Section*/
 
 .left-container {
   width: 50vw;
@@ -60,7 +67,8 @@
 .title {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  font-weight: 700;
 }
 
 .descrition {
@@ -96,3 +104,59 @@
 }
 
 /*Media Query*/
+
+@media screen and (max-width: 1013px) {
+  .section {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .left-container,
+  .right-container {
+    padding: 0;
+    width: 100%;
+  }
+
+  .left-container p,
+  .right-container p {
+    width: 80%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .right-container#shoes {
+    display: none;
+  }
+
+  .left-container#hero {
+    width: 100vw;
+  }
+
+  .image {
+    min-width: 300px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  ul#list-container-right {
+    display: none;
+  }
+  .menu-icon {
+    font-size: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}

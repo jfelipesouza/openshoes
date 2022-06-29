@@ -16,12 +16,14 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: 'Inter', 'DM Sans', sans-serif;
+  font-family: 'Inter', 'DM Sans', sans-serif !important;
   text-decoration: none;
   scroll-behavior: smooth;
 }
 
-img {
+p,
+img,
+span {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -35,25 +37,20 @@ body {
   background-color: var(--background);
 }
 
-/* width */
+/* width scrollbar */
 body::-webkit-scrollbar {
   width: 0.2rem;
 }
 
-/* Track */
+/* Track scrollbar */
 body::-webkit-scrollbar-track {
-  background: #f1eded;
+  background: var(--primary);
 }
 
-/* Handle */
+/* Handle scrollbar */
 body::-webkit-scrollbar-thumb {
   background: var(--primary-light);
   border-radius: 2rem;
-}
-
-/* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
-  background: var(--primary);
 }
 
 .color-primary {
@@ -96,6 +93,19 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: var(--background-card);
 }
 
+.bg-hover-primary:hover {
+  background-color: var(--primary);
+}
+.bg-hover-secundary:hover {
+  background-color: var(--secundary);
+}
+.bg-hover-primary-light:hover {
+  background-color: var(--primary-light);
+}
+.bg-hover-error:hover {
+  background-color: var(--error);
+}
+
 .flex {
   display: flex;
 }
@@ -112,18 +122,21 @@ body::-webkit-scrollbar-thumb:hover {
 
 .btn-action {
   padding: 0.5rem 1.5rem;
-  background-color: #1d3557ee;
   border-radius: 0.5rem;
   font-size: 1rem;
-  color: var(--text-light);
-}
-
-.btn-action:hover {
-  background-color: var(--primary);
 }
 
 .btn-action:active {
   transform: translateY(-1px);
   -webkit-box-shadow: 3px 0px 6px -3px #000000;
   box-shadow: 3px 0px 6px -3px #000000;
+}
+
+.border-md {
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 0px 10px -2px rgba(0, 0, 0, 0.51);
+  box-shadow: 3px 0px 10px -2px rgba(0, 0, 0, 0.51);
 }

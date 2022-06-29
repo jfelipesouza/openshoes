@@ -11,21 +11,21 @@
 
     <!--  Código Javascript --->
 
-    <script src="https://unpkg.com/phosphor-icons"></script>
-    <script src="../src/js/materialize.min.js"></script>
-
     <!-- SEO -->
     <title>Shoes</title>
   </head>
   <body>
     <header class="bg-primary header">
-      <nav>
+      <nav class="transparent">
+        <div class="menu-icon">
+          <i class="ph-list color-text-light"></i>
+        </div>
         <div>
           <a href="./index.html" class="logo-container"> SHOES </a>
         </div>
 
-        <div id="list-container-right">
-          <ul class="list">
+        <div>
+          <ul class="list" id="list-container-right">
             <li>
               <a class="list-item" href="./index.html#hero">Home</a>
             </li>
@@ -44,10 +44,10 @@
     </header>
 
     <main>
-      <section class="flex section" id="hero">
-        <div class="flex-center flex-column left-container">
-          <h2 class="title color-text">
-            Bem-vindo ao SHOES encontre seu sapato ideal
+      <section class="section" id="hero">
+        <div class="flex-center flex-column left-container" id="hero">
+          <h2 class="title color-primary">
+            Bem-vindo ao <span class="color-secundary"> SHOES </span>
           </h2>
           <p class="descrition color-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
@@ -56,18 +56,50 @@
             obcaecati soluta officia quam?
           </p>
 
-          <a class="btn-action" href="./index.html#"> BUSQUE JÁ</a>
+          <a
+            class="btn-action color-text-light bg-secundary bg-hover-primary"
+            href="./index.html#"
+          >
+            BUSQUE JÁ
+          </a>
         </div>
         <div class="flex-center right-container" id="shoes">
           <img
-            src="../src/assets/img/orange-shoe.svg"
+            src="../src/assets/img/orange-shoes.svg"
             alt="sapato laranja bonito"
             class="image"
           />
         </div>
       </section>
-      <section class="section" id="about"></section>
+
+      <section class="section bg-secundary" id="about">
+        <div class="flex-center left-container">
+          <img
+            src="../src/assets/img/allstar-shoes.svg"
+            alt="imagem da empresa"
+            class="image border-md shadow"
+          />
+        </div>
+        <div class="flex-center flex-column right-container">
+          <h2 class="title color-text-light">Somos pioneiros no mercado</h2>
+          <p class="descrition color-text-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ipsum
+            sint autem sed, natus eaque delectus, possimus dignissimos odit
+            perferendis pariatur perspiciatis porro, magnam suscipit voluptate.
+            Repellendus iure soluta corrupti!
+          </p>
+          <a
+            class="btn-action bg-primary-light color-text"
+            href="./index.html#"
+          >
+            Comece Agora
+          </a>
+        </div>
+      </section>
     </main>
     <footer></footer>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="../src/js/materialize.min.js"></script>
   </body>
 </html>
