@@ -19,6 +19,7 @@
   font-family: 'Inter', 'DM Sans', sans-serif !important;
   text-decoration: none;
   scroll-behavior: smooth;
+  outline: 0;
 }
 
 p,
