@@ -8,16 +8,18 @@
 
 .header nav {
   padding: 0.25rem 2rem;
-  height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 4rem;
+}
+
+nav ul li a:hover {
+  background-color: transparent;
 }
 
 .logo-container {
   display: flex;
-  flex-direction: row;
-  font-size: 2rem;
   color: var(--text-light);
   position: relative;
   height: 100%;
@@ -25,7 +27,13 @@
   justify-content: center;
 }
 
-.menu-icon {
+.logo {
+  height: 3rem;
+  width: auto;
+  object-fit: cover;
+}
+
+.menu-container-icon {
   display: none;
 }
 
@@ -86,7 +94,7 @@
   position: relative;
 }
 .right-container#shoes::before {
-  content: '';
+  content: "";
   position: absolute;
 
   right: 0;
@@ -141,12 +149,15 @@
   ul#list-container-right {
     display: none;
   }
-  .menu-icon {
-    font-size: 2rem;
+  .menu-container-icon {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .menu-container-icon i {
+    transform: translateY(25%);
+    font-size: 1.8rem;
   }
 
   .title {
