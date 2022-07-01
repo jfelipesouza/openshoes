@@ -8,14 +8,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../src/css/custom/global.css" />
     <link rel="stylesheet" href="../src/css/custom/home-client.css" />
-    <link rel="stylesheet" href="../src/css/material/materialize.min.css" />
 
     <!-- SEO -->
     <title>Shoes</title>
   </head>
   <body>
     <header class="bg-primary header">
-      <nav class="transparent">
+      <nav>
         <div class="menu-container-icon">
           <i class="ph-list color-text-light"></i>
         </div>
@@ -64,7 +63,7 @@
 
           <a
             class="btn-action color-text-light bg-secundary bg-hover-primary"
-            href="./index.html#"
+            href="./search.html#"
           >
             BUSQUE JÁ
           </a>
@@ -73,7 +72,8 @@
           <img
             src="../src/assets/img/orange-shoes.svg"
             alt="sapato laranja bonito"
-            class="image"
+            class="image image-shadow"
+            id="shoes"
           />
         </div>
       </section>
@@ -95,26 +95,72 @@
             Repellendus iure soluta corrupti!
           </p>
           <a
-            class="btn-action bg-primary-light color-text"
-            href="./index.html#"
+            class="btn-action bg-card color-text bg-hover-primary shadow"
+            href="./search.html#"
           >
             Comece Agora
           </a>
         </div>
       </section>
 
-      <section class="section flex-center" id="hot">
+      <section class="section flex-column flex-center" id="hot">
+        <h2 class="title color-primary">Mais vendidos</h2>
+
         <div class="wrapper">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+          <a href="./product.html#red_nike_revolt">
+            <div class="card shadow">
+              <img
+                src="../src/assets/img/red-nike-revolt.svg"
+                alt="red-nike-revolt"
+                class="product-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">red nike revolt</h3>
+                <p class="card-price">R$ 149,99</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="./product.html#puma_white_street">
+            <div class="card shadow">
+              <img
+                src="../src/assets/img/puma-white-street.svg"
+                alt="puma-white-street"
+                class="product-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">puma white street</h3>
+                <p class="card-price">R$ 149,99</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="./product.html#mojtaba_fahiminia">
+            <div class="card shadow">
+              <img
+                src="../src/assets/img/mojtaba-fahiminia.svg"
+                alt="mojtaba-fahiminia"
+                class="product-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">mojtaba fahiminia</h3>
+                <p class="card-price">R$ 149,99</p>
+              </div>
+            </div>
+          </a>
         </div>
+        <br />
+        <a
+          class="btn-action color-text-light bg-secundary bg-hover-primary shadow"
+          href="./search.html#hot"
+        >
+          Veja mais
+        </a>
       </section>
     </main>
-    <footer></footer>
+    <footer class="rodape"></footer>
 
     <!--  Código Javascript --->
     <script src="https://unpkg.com/phosphor-icons"></script>
-    <script src="../src/js/materialize.min.js"></script>
   </body>
 </html>
