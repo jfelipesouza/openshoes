@@ -1,3 +1,61 @@
 .section {
   background-color: white;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#name-shoes {
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+/* .slides {
+  display: none;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#img {
+  vertical-align: middle;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+} */
+
+.list-type {
+  display: flex;
+}
+
+.list-size {
+  display: grid;
+}
+
+li {
+  margin: 5rem;
+}
+
+.size {
+  display: inline;
+}
+
+.button-buy {
+  background-color: #E63946;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 15px;
+  width: 20rem;
+  height: 3.8rem;
 }

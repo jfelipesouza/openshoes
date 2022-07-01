@@ -11,6 +11,7 @@
 
     <title>OpenShoes</title>
   </head>
+
   <body>
     <header class="bg-primary header">
       <nav class="transparent">
@@ -26,38 +27,92 @@
     </header>
 
     <main>
+      <div>
+        
+      </div>
       <section class="section">
         <div class="flex-center flex-column left-container">
-          <img src="../src/assets/img/orange-shoes.svg"
-          alt="sapato laranja bonito"
-          class="image bg-card"/>
-        </div>
-
-        <div class="flex-center left-container">
-          <h2>NOME</h2>
-        </div>
-        <div>
-          <p>Modelo: </p>
-          <p>Tamanho: </p>
-          <div class="bg-card">
-            <p>10</p>
+            <h2 id="name-shoes">NOME</h2>
+            <img src="../src/assets/img/orange-shoes.svg"
+            alt="sapato laranja bonito"
+            class="img image bg-card"/>
+          
+          
+          <!-- <div class="slides">
           </div>
-          <p>Store: </p>
-          <p>Codigo do produto: </p>
-          <p>Categoria: </p>
+          <div class="slides">
+            <img src="../src/assets/img/orange-shoes.svg"
+            alt="sapato laranja bonito"
+            class="img image bg-card"/>
+          </div>
+          <div class="slides">
+            <img src="../src/assets/img/orange-shoes.svg"
+            alt="sapato laranja bonito"
+            class="img image bg-card"/>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img src="../src/assets/img/orange-shoes.svg"
+              alt="sapato laranja bonito"
+              class="image bg-card"
+              id="img"
+              onclick="currentSlide(1)"/>
+            </div>         
+            <div class="column">
+              <img src="../src/assets/img/orange-shoes.svg"
+              alt="sapato laranja bonito"
+              class="image bg-card"
+              id="img"
+              onclick="currentSlide(2)"/>
+            </div>         
+            <div class="column">
+              <img src="../src/assets/img/orange-shoes.svg"
+              alt="sapato laranja bonito"
+              class="image bg-card cursor"
+              id="img"
+              onclick="currentSlide(3)"/>
+            </div>
+          </div> -->
         </div>
 
-
-      </section>
-
-      <section>
-        <div class="flex-center left-container">
-          <button class="bg-secundary">
-            teste
-          </button>
-        </div>
-      </section>
+          <div class="flex-center flex-column left-container">
+            <ul class="list-complete">
+              <li class="list-type">
+                <h2>Modelo: </h2>
+                <a>teste</a>
+              </li>
+              <li class="list-size">
+                <h2>Tamanho: </h2>
+                <div class="size">
+                  <a class="bg-card">38</a>
+                  <a class="bg-card">40</a>
+                </div>
+              </li>
+              <li class="list-type">
+                <h2>Loja: </h2>
+                <a>teste</a>
+              </li>
+              <li class="list-type">
+                <h2>Codigo: </h2>
+                <a>teste</a>
+              </li>
+              <li class="list-type">
+                <h2>Categoria: </h2>
+                <a>teste</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="flex-center left-container teste">
+            <button class="button-buy">
+              Comprar
+            </button>
+          </div>
+          
+        </section>
     </main>
+
     <footer class="bg-primary">
       <div>
         <a href="./index.html" class="logo-container">
@@ -65,5 +120,7 @@
         </a>
       </div>
     </footer>
+
+    <script src="../src/js/custom/slide.js"></script>
   </body>
 </html>
