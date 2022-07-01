@@ -98,12 +98,16 @@ body::-webkit-scrollbar-thumb {
 
 .bg-hover-primary:hover {
   background-color: var(--primary);
+  color: var(--text-light);
 }
 .bg-hover-secundary:hover {
   background-color: var(--secundary);
 }
 .bg-hover-primary-light:hover {
   background-color: var(--primary-light);
+}
+.bg-hover-card:hover {
+  background-color: var(--background-card);
 }
 .bg-hover-error:hover {
   background-color: var(--error);
@@ -124,13 +128,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn-action {
-  padding: 0.5rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   min-width: 150px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .btn-action:active {
@@ -146,4 +150,21 @@ body::-webkit-scrollbar-thumb {
 .shadow {
   -webkit-box-shadow: 3px 0px 10px -2px rgba(0, 0, 0, 0.51);
   box-shadow: 3px 0px 10px -2px rgba(0, 0, 0, 0.51);
+}
+.image-shadow {
+  filter: drop-shadow(3px 3px 10px #1b1a1a);
+}
+
+@keyframes float-v {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
