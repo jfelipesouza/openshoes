@@ -1,3 +1,4 @@
+/* função carousel de imagem */
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -16,6 +17,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
 }
 
+/* função adicionar as favoritos*/
  let teste = document.getElementById('heart').style.fill = ''
 
 function addFavorite(){
