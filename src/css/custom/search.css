@@ -1,11 +1,12 @@
 .left-margin-aligned{
     margin-left: 29px;
   }
- .right-margin-aligned{
+ .right-top-margin-aligned{
     margin-right: 29px;
+    margin-top: 20px;
   }
   .top-margin-aligned{
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .card-edge{
     border-radius:  0.5rem!important;
@@ -37,7 +38,7 @@
     float: right; 
   }
   .icon-link-color{
-    color: var(--secundary);
+    color: var(--primary);
   }
   .event-a:hover {
     color: var(--secundary);
@@ -45,3 +46,4 @@
   .color-a{
 color: var(--primary);
   }
+ 
