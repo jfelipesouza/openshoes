@@ -97,6 +97,10 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--background-card);
 }
 
+.bg-error {
+  background-color: var(--error);
+}
+
 .bg-hover-primary:hover {
   background-color: var(--primary);
   color: var(--text-light);
