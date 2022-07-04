@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/custom/global.css" />
+    <link rel="stylesheet" href="./src/css/custom/home-client.css" />
+    <link rel="stylesheet" href="./src/css/custom/footer.css" />
+    <!-- SEO -->
+    <title>Shoes</title>
+  </head>
+  <body>
+    <header class="bg-primary header">
+      <nav>
+        <div class="menu-container-icon">
+          <i class="ph-list color-text-light"></i>
+        </div>
+        <div>
+          <a href="./index.html" class="logo-container">
+            <img src="./src/assets/img/logo.svg" alt="OPENSHOES" class="logo" />
+          </a>
+        </div>
+
+        <div>
+          <ul class="list" id="list-container-right">
+            <li>
+              <a class="list-item" href="./index.html#hero">Home</a>
+            </li>
+            <li>
+              <a class="list-item" href="./index.html#about">Sobre</a>
+            </li>
+            <li>
+              <a class="list-item" href="./index.html#hot">Quentes</a>
+            </li>
+            <li>
+              <a class="list-item" href="./index.html#contact">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section flex-center" id="hero">
+        <div class="flex-center flex-column left-container" id="hero">
+          <h2 class="title color-primary">
+            Bem-vindo ao <span class="color-error">OPEN</span
+            ><span class="color-secundary">SHOES</span>
+          </h2>
+          <p class="descrition color-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+            doloribus consequatur maiores distinctio cupiditate ipsa quis
+            veritatis iure laudantium quia error nisi velit in natus dicta
+            obcaecati soluta officia quam?
+          </p>
+
+          <a
+            class="btn-action color-text-light bg-secundary bg-hover-primary"
+            href="./search.html#"
+          >
+            BUSQUE JÁ
+          </a>
+        </div>
+        <div class="flex-center right-container" id="shoes">
+          <img
+            src="./src/assets/img/orange-shoes.svg"
+            alt="sapato laranja bonito"
+            class="image image-shadow"
+            id="shoes"
+          />
+        </div>
+      </section>
+
+      <section class="section flex-center bg-secundary" id="about">
+        <div class="flex-center left-container">
+          <img
+            src="./src/assets/img/allstar-shoes.svg"
+            alt="imagem da empresa"
+            class="image border-md shadow"
+          />
+        </div>
+        <div class="flex-center flex-column right-container">
+          <h2 class="title color-text-light">Somos pioneiros no mercado</h2>
+          <p class="descrition color-text-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ipsum
+            sint autem sed, natus eaque delectus, possimus dignissimos odit
+            perferendis pariatur perspiciatis porro, magnam suscipit voluptate.
+            Repellendus iure soluta corrupti!
+          </p>
+          <a
+            class="btn-action bg-card color-text bg-hover-primary shadow"
+            href="./search.html#"
+          >
+            Comece Agora
+          </a>
+        </div>
+      </section>
+
+      <section class="section flex-center flex-column" id="hot">
+        <h2 class="title color-primary">Mais vendidos</h2>
+
+        <div class="wrapper">
+          <a href="./product.html#red_nike_revolt">
+            <div class="card shadow">
+              <img
+                src="./src/assets/img/red-nike-revolt.svg"
+                alt="red-nike-revolt"
+                class="product-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">red nike revolt</h3>
+                <p class="card-price">R$ 149,99</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="./product.html#puma_white_street">
+            <div class="card shadow">
+              <img
+                src="./src/assets/img/puma-white-street.svg"
+                alt="puma-white-street"
+                class="product-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">puma white street</h3>
+                <p class="card-price">R$ 149,99</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="./product.html#mojtaba_fahiminia">
+            <div class="card shadow">
+              <img
+                src="./src/assets/img/mojtaba-fahiminia.svg"
+                alt="mojtaba-fahiminia"
+                class="product-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">mojtaba fahiminia</h3>
+                <p class="card-price">R$ 149,99</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <br />
+        <a
+          class="btn-action color-text-light bg-secundary bg-hover-primary shadow"
+          href="./search.html#hot"
+        >
+          Veja mais
+        </a>
+      </section>
+
+      <section class="section bg-secundary flex-center" id="contact">
+        <div class="left-container flex flex-column flex-center">
+          <h2 class="title color-text-light">Ficou com alguma dúvida?</h2>
+          <h3 class="subTitle color-text-light">Entre em contato conosco</h3>
+
+          <form class="form">
+            <div class="textfield">
+              <label for="name" class="form-label">Nome</label>
+              <input
+                type="text"
+                name="name"
+                class="form-input"
+                placeholder="Ex: Felipe Souza"
+              />
+            </div>
+
+            <div class="textfield">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                type="email"
+                name="e-mail"
+                class="form-input"
+                placeholder="Ex: felipe@openshoes.com"
+              />
+            </div>
+
+            <div class="textfield">
+              <label for="comment" class="form-label">Comentário</label>
+              <textarea
+                name="comment"
+                class="form-textarea"
+                placeholder="Adoraria uma pantufa de dinossaruro..."
+              ></textarea>
+            </div>
+
+            <a
+              href="#"
+              class="form-btn bg-card color-text bg-hover-primary shadow"
+            >
+              Enviar
+            </a>
+          </form>
+        </div>
+
+        <div class="right-container flex-center" id="contact">
+          <img
+            class="image border-md"
+            src="./src/assets/img/contact-image.svg"
+            alt="contact image"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-left-container">
+        <a href="./index.html">
+          <img src="./src/assets/img/logo.svg" alt="logo" />
+        </a>
+        <div class="footer-links-container">
+          <a href="" class="footer-text-link">Encontre uma loja Open shoes</a>
+          <a href="" class="footer-text-link"
+            >Cadastre seu e-mail e receba novidades</a
+          >
+        </div>
+      </div>
+
+      <div class="footer-right-container">
+        <div class="social-media">
+          <span>REDES SOCIAIS</span>
+          <div class="social-media-container">
+            <a href="#" class="social-media-icons">
+              <i class="ph-messenger-logo"></i>
+            </a>
+            <a href="#" class="social-media-icons"
+              ><i class="ph-instagram-logo"></i
+            ></a>
+            <a href="#" class="social-media-icons"
+              ><i class="ph-youtube-logo"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Código Javascript --->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </body>
+</html>
