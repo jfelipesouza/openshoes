@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,900&display=swap');
+
+*{
+   margin:0; /*zerar margin*/
+   padding:0; /*zerar preenchimento*/
+   font-family: 'roboto', sans-serif; /*define a fonte dos elementos*/
+}
+a{
+    text-decoration: none; /*retirar qualquer decoração de uma fonte, use underline para sublinhar o texto*/
+}
+
+/*miolo conteúdo*/
+.container{
+    width:100%;
+    height: 100%;
+    padding: 40px 0;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom:0;
+    background-color: rgb(23, 56,87);
+}
+footer span{
+    display: block;
+    width: 45%;
+    padding: 0px 100px ;
+    color:#fff; /* Para a cores das letras*/
+    text-indent:80px; /*identar um texto (jogar + para a esquerda)*/
+   
+}
+ footer .top .containerimagem h1 img{
+    margin: 50px;   /*para afastar imagem da margem*/
+
+}
+
+
+footer .top .redes{
+    flex-direction:column;
+    align-items:center;
+    float: right;
+    display: flex;
+    justify-content: right;
+    border: 50px;
+}
+
+footer .redes .icone{
+    display: flex;
+    float: right;
+    width: 1200px;
+    height: 70px;
+    margin: 0px 50px;
+    line-height: 140%;
+    letter-spacing: .25px;
+    box-sizing: border-box;
+}
