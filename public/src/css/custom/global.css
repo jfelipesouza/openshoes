@@ -18,6 +18,7 @@
   box-sizing: border-box;
   font-family: "Inter", "DM Sans", sans-serif;
   text-decoration: none;
+  list-style: none;
   scroll-behavior: smooth;
   outline: 0;
   line-height: normal;
