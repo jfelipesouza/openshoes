@@ -101,6 +101,7 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--primary);
   color: var(--text-light);
 }
+
 .bg-hover-secundary:hover {
   background-color: var(--secundary);
 }

@@ -43,6 +43,7 @@
   cursor: pointer;
   padding: 0.5rem;
 }
+
 .list-item {
   text-decoration: none;
   color: var(--text-light);

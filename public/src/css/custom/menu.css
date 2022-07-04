@@ -30,7 +30,6 @@
 .menu-item a {
   color: var(--text-light);
 }
-
 .menu-closed-icon {
   position: absolute;
   top: 1rem;
