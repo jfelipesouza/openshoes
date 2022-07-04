@@ -38,13 +38,15 @@
   display: flex;
 }
 
-.list-item {
+.list-item-container {
   margin-left: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.list-item {
   text-decoration: none;
   color: var(--text-light);
   background-color: transparent;
-  padding: 0.5rem;
-  cursor: pointer;
   position: relative;
   font-size: 1rem;
 }
@@ -60,7 +62,7 @@
   height: 2px;
   width: 0;
   left: 0;
-  bottom: 0;
+  bottom: -0.5rem;
   transition: all 0.3s linear;
 }
 
