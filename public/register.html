@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/custom/global.css">
+    <link rel="stylesheet" href="../src/css/custom/home-client.css">
+    <link rel="stylesheet" href="../src/css/custom/register.css">
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <header class="bg-primary header">
+        <!-- Navegation -->
+        <nav>
+            <div class="menu-container-icon">
+                <i class="ph-list color-text-light"></i>
+            </div>
+            <div>
+                <a href="./index.html" class="logo-container">
+                    <img src="../src/assets/img/logo.svg" alt="OPENSHOES" class="logo" />
+                </a>
+            </div>
+
+            <div>
+                <ul class="list" id="list-container-right">
+                    <li>
+                        <a class="list-item" href="./index.html#hero">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Register Form -->
+    <main>
+        <section class="section flex-column flex-center">
+            <div class="register-form shadow">
+                <h2 class="title">Crie sua conta</h2>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <label for="name" class="details">Nome</label>
+                            <input id="name" type="text" placeholder="Insira seu nome completo">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="phone-number" class="details">Número de celular</label>
+                            <input id="phone-number" type="text" placeholder="(99) 99999-9999">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email" class="details">E-mail</label>
+                            <input id="email" type="email" placeholder="email@email.com">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password" class="details">Senha</label>
+                            <input id="password" type="password" placeholder="********">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="confirm-password" class="details">Confirmação de senha</label>
+                            <input id="confirm-password" type="password" placeholder="********">
+                        </div>
+                        <button> Continuar </button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
