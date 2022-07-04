@@ -120,7 +120,7 @@ form p {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .checkbox-container {
     flex-direction: column;
     align-items: flex-start;
