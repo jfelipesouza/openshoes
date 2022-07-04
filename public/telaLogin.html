@@ -15,28 +15,33 @@
     <main class="card-completo">
         <div class="login-novo">
             <div class="row">
-                <div class="col s12 tam-card">
+                <div class="col s12 m10 tam-card">
                     <div class="card">
                         <div class="card-content">
                             <h4 class="card-title">Login</h4>
                             <form action="#">
                                 <label for="usuario" class="corLabel">Usuário</label>
-                                <input type="text" id="usuario" name="usuario" autofocus><br><br>
+                                <input type="text" id="usuario" name="usuario" autofocus>
                                 <label for="password" class="corLabel">Senha</label>
-                                <input type="password" id="password" name="password"><br><br>
-                                <input type="checkbox" id="checkbox" name="password"><br><br>
-                                <a href="#"
-                                    class="btn btn-100 bg-primary bg-hover-secundary">Entrar</a>
+                                <input type="password" id="password" name="password">
+                                <input type="checkbox" id="checkbox" name="password">
+                                <div class="checkbox-personalizado">    
+                                    <label>
+                                        <input type="checkbox" class="filled-in"/>
+                                            <span>Mantenha-me Conectado</span> 
+                                        </label>
+                                    <label class="filled-in right"><a href="#">Esqueceu a Senha?</a></label>
+                                </div>
+                                  <a href="#" class="btn btn-100 bg-primary bg-hover-secundary">Entrar</a>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
       
-        <div class="card-image">
-            <img src="/src/assets/img/logo.svg">
+        <div class="card-image" id="teste">
+            <img src="/src/assets/img/logo-flutuante.gif">
         </div>
     </main>
 </body>
