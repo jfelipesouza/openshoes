@@ -1,0 +1,64 @@
+.tam-card {
+  margin: 100px;
+  margin-left: 100px;
+}
+
+.card-completo {
+  display: flex;
+  width: 100vw;
+}
+
+.card-image img {
+  margin-top: 15%;
+  margin-right: 40vh;
+}
+
+.background-telaLogin {
+  background-color: var(--primary);
+}
+
+.card-title {
+  color: var(--primary) !important;
+  text-align: center;
+  padding: 30px;
+}
+
+.btn {
+  background-color: var(--primary);
+}
+
+.btn-100 {
+  width: 100%;
+  text-align: center;
+}
+
+.card-content form .corLabel {
+  color: var(--primary) !important;
+}
+
+.card-content input {
+  border-color: var(--primary) !important;
+}
+
+input:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 1px 0 0 var(--primary) !important;
+}
+
+.login-novo {
+  width: 50%;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 628px) {
+  .card-image {
+    display: none !important;
+  }
+
+  .login-novo {
+    width: 100%;
+  }
+}
