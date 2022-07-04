@@ -27,7 +27,7 @@
   color: var(--primary);
 }
 
-.slides {
+.slide {
   width: 100%;
   display: flex;
   align-items: center;
@@ -114,7 +114,7 @@
 }
 
 .buttons-container {
-  width: 80%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,7 +144,7 @@
   background-color: var(--error);
 }
 
-.save-btn,
+/* .save-btn,
 .buy-btn {
   transition: all 0.3s linear;
   display: flex;
@@ -155,7 +155,7 @@
 .save-btn:active,
 .buy-btn:active {
   transform: translateY(-3px);
-}
+} */
 
 @media screen and (max-width: 1000px) {
   .main {

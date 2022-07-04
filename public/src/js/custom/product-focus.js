@@ -2,8 +2,9 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+
 function currentSlide(n) {
-  showSlides((slideIndex = n));
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
@@ -13,24 +14,27 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
 
-  slides[slideIndex - 1].style.display = "flex";
+  slides[slideIndex-1].style.display = "block";
 }
 
 /* função adicionar as favoritos*/
-let teste = (document.getElementById("heart").style.fill = "");
+let teste = document.getElementById('heart').style.backgroundColor = ''
 
-function addFavorite() {
-  if ((teste = "white")) {
-    document.getElementById("heart").style.fill = "#E63946";
-  }
+function addFavorite(){
+  if(teste = '#457b9d'){
+    document.getElementById('heart').style.backgroundColor = '#E63946'
+  } 
+    // document.getElementById('heart').style.color = '#E63946'
 }
 
-function removeFavorite() {
-  if ((teste = "#E63946")) {
-    document.getElementById("heart").style.fill = "white";
-  }
+function removeFavorite(){
+    if(teste = '#E63946'){
+    document.getElementById('heart').style.backgroundColor = '#457b9d'
+  } 
+  // document.getElementById('heart').style.color = '#E63946'
 }
 
-function favorite() {
-  teste != "#E63946" ? removeFavorite() : addFavorite();
+function favorite(){
+  teste != '#E63946' ? removeFavorite() : addFavorite() 
+  console.log(favorite)
 }
