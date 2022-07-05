@@ -9,16 +9,18 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #fff;
 }
 
 .right-container {
   display: flex;
   width: 50%;
-  background-color: var(--primary);
+  background-color: #1a3254;
   position: relative;
+  justify-content: center;
 }
 .right-container img {
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: contain;
 }
@@ -32,8 +34,12 @@
 .btn {
   background-color: var(--primary);
   margin-bottom: 2rem;
+  transition: all 0.2s linear;
 }
 
+.btn:hover {
+  background-color: var(--secundary);
+}
 .btn-100 {
   width: 100%;
   text-align: center;
