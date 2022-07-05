@@ -6,6 +6,10 @@
   z-index: 999;
 }
 
+.header#fixed {
+  position: relative;
+  width: 100vw;
+}
 .header nav {
   padding: 0.25rem 2rem;
   display: flex;
