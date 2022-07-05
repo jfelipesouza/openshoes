@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .left-container,
@@ -27,7 +28,7 @@
   color: var(--primary);
 }
 
-.slides {
+.slide {
   width: 100%;
   display: flex;
   align-items: center;
@@ -114,10 +115,10 @@
 }
 
 .buttons-container {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 2rem 0;
 }
 
@@ -129,6 +130,7 @@
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin-right: 1.5rem;
 }
 
 .save-btn {
@@ -205,5 +207,9 @@
   }
   .specification-container p {
     margin-top: 0.5rem;
+  }
+
+  .buy-btn {
+    margin-right: 1rem;
   }
 }

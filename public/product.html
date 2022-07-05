@@ -61,32 +61,47 @@
     <main class="main">
       <div class="left-container">
         <h2 class="title">Nike Orange Style</h2>
-        <div class="slides">
-          <div class="image-container shadow">
+        <div class="slide">
+          <div class="image-container shadow slides">
             <img
-              src="./src/assets/img/orange-shoes.svg"
+              src="./src/assets/img/orange-shoes-1.svg"
               alt="sapato laranja confortavél"
               class="image"
             />
           </div>
+          <div class="image-container shadow slides">
+            <img
+              src="./src/assets/img/orange-shoes-2.svg"
+              alt="sapato laranja confortavél"
+              class="image"
+            />
+          </div>
+          <div class="image-container shadow slides">
+            <img
+              src="./src/assets/img/orange-shoes-3.svg"
+              alt="sapato laranja confortavél"
+              class="image"
+            />
+          </div>
+
           <div class="slides-buttons-container">
-            <button class="slides-buttons shadow">
+            <button class="slides-buttons shadow" onclick="currentSlide(1)">
               <img
-                src="./src/assets/img/orange-shoes.svg"
+                src="./src/assets/img/orange-shoes-1.svg"
                 alt="sapato laranja bonito"
                 class="slides-buttons-image"
               />
             </button>
-            <button class="slides-buttons shadow">
+            <button class="slides-buttons shadow" onclick="currentSlide(2)">
               <img
-                src="./src/assets/img/orange-shoes.svg"
+                src="./src/assets/img/orange-shoes-2.svg"
                 alt="sapato laranja bonito"
                 class="slides-buttons-image"
               />
             </button>
-            <button class="slides-buttons shadow">
+            <button class="slides-buttons shadow" onclick="currentSlide(3)">
               <img
-                src="./src/assets/img/orange-shoes.svg"
+                src="./src/assets/img/orange-shoes-3.svg"
                 alt="sapato laranja bonito"
                 class="slides-buttons-image"
               />
@@ -132,9 +147,8 @@
         </div>
 
         <div class="buttons-container">
-          <div></div>
-          <button class="buy-btn shadow">Ver mais</button>
-          <div class="save-btn shadow">
+          <button class="buy-btn shadow">Vê mais</button>
+          <div class="save-btn shadow" id="heart" onclick="favorite()">
             <i class="ph-heart"></i>
           </div>
         </div>
@@ -173,7 +187,7 @@
     </footer>
 
     <!---Código Javascript-->
-    <!-- <script src="./src/js/custom/product-focus.js"></script> -->
+    <script src="./src/js/custom/product-focus.js"></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
   </body>
 </html>

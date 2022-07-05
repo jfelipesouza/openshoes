@@ -13,24 +13,24 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
 
-  slides[slideIndex - 1].style.display = "flex";
+  slides[slideIndex - 1].style.display = "block";
 }
 
-/* função adicionar as favoritos*/
-let teste = (document.getElementById("heart").style.fill = "");
+/* função adicionar aos favoritos*/
+let save_btn = (document.getElementById("heart").style.backgroundColor = "");
 
 function addFavorite() {
-  if ((teste = "white")) {
-    document.getElementById("heart").style.fill = "#E63946";
+  if ((save_btn = "#457b9d")) {
+    document.getElementById("heart").style.backgroundColor = "#E63946";
   }
 }
 
 function removeFavorite() {
-  if ((teste = "#E63946")) {
-    document.getElementById("heart").style.fill = "white";
+  if ((save_btn = "#E63946")) {
+    document.getElementById("heart").style.backgroundColor = "#457b9d";
   }
 }
 
 function favorite() {
-  teste != "#E63946" ? removeFavorite() : addFavorite();
+  save_btn != "#E63946" ? removeFavorite() : addFavorite();
 }
