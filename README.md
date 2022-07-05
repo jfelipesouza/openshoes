@@ -1,2 +1,0 @@
-# Projeto OpenShoes - Vitrine digital
-
