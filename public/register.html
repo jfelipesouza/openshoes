@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--- CSS -->
+    <link rel="stylesheet" href="./src/css/custom/global.css" />
+    <link rel="stylesheet" href="./src/css/custom/home-client.css" />
+    <link rel="stylesheet" href="./src/css/custom/register.css" />
+    <link rel="stylesheet" href="./src/css/custom/footer.css" />
+    <link rel="stylesheet" href="./src/css/custom/header.css" />
+    <!-- SEO -->
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href=" ./src/assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=" ./src/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href=" ./src/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href=" ./src/assets/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#1d3557" />
+    <meta name="theme-color" content="#457b9d" />
+
+    <title>Cadastre-se</title>
+  </head>
+
+  <body>
+    <!-- Navegation -->
+    <header class="bg-primary header">
+      <nav>
+        <div>
+          <a href="./index.html" class="logo-container">
+            <img src="./src/assets/img/logo.svg" alt="OPENSHOES" class="logo" />
+          </a>
+        </div>
+
+        <div>
+          <ul class="list" id="list-container-right">
+            <li class="list-item-container">
+              <a class="list-item" href="./index.html#hero">Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Register Form -->
+    <main>
+      <section class="section flex-column flex-center">
+        <div class="register-form shadow">
+          <h2 class="title">Crie sua conta</h2>
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <label for="name" class="details">Nome</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Insira seu nome completo"
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="phone-number" class="details"
+                  >Número de celular</label
+                >
+                <input
+                  id="phone-number"
+                  type="text"
+                  placeholder="(99) 99999-9999"
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="email" class="details">E-mail</label>
+                <input id="email" type="email" placeholder="email@email.com" />
+              </div>
+
+              <div class="input-box">
+                <label for="password" class="details">Senha</label>
+                <input id="password" type="password" placeholder="********" />
+              </div>
+
+              <div class="input-box">
+                <label for="confirm-password" class="details"
+                  >Confirmação de senha</label
+                >
+                <input
+                  id="confirm-password"
+                  type="password"
+                  placeholder="********"
+                />
+              </div>
+              <button>Continuar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-left-container">
+        <a href="./index.html">
+          <img src="./src/assets/img/logo.svg" alt="logo" />
+        </a>
+        <div class="footer-links-container">
+          <a href="" class="footer-text-link">Encontre uma loja Open shoes</a>
+          <a href="" class="footer-text-link"
+            >Cadastre seu e-mail e receba novidades</a
+          >
+        </div>
+      </div>
+
+      <div class="footer-right-container">
+        <div class="social-media">
+          <span>REDES SOCIAIS</span>
+          <div class="social-media-container">
+            <a href="#" class="social-media-icons">
+              <i class="ph-messenger-logo"></i>
+            </a>
+            <a href="#" class="social-media-icons"
+              ><i class="ph-instagram-logo"></i
+            ></a>
+            <a href="#" class="social-media-icons"
+              ><i class="ph-youtube-logo"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Código Javascript --->
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/phosphor-icons"
+    ></script>
+  </body>
+</html>
